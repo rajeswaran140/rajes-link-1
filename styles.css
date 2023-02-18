@@ -58,9 +58,9 @@ a:hover {
 header {
   text-align: center;
   background: url("images/code_image_1.jpeg") no-repeat top center;
-  background-size: 100%;
+  background-size: cover;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 1.3rem;
 }
 header {
   line-height: 1.1;
