@@ -10,7 +10,7 @@
 }
 
 .puppy {
-  margin: 100% auto;
+  margin: 50% auto;
   padding: 4px;
   border-radius: 50%;
   border: 2px solid whitesmoke;
@@ -20,8 +20,14 @@
   display: block;
   justify-content: center;
   align-items: center;
+  animation: spin 15s linear infinite;
 }
 
-.border {
-  border: 1px solid #0f68c1 !important;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
