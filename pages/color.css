@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.row {
+  background-color: skyblue;
+  border-radius: 5px;
+  border-spacing: 2rem;
+  padding: 6px;
+}
