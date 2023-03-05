@@ -4,7 +4,7 @@
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .nav .name {
@@ -23,7 +23,7 @@
 }
 
 header {
-  text-align: ce;
+  background-color: #007bff;
   background-size: cover;
   overflow: hidden;
   padding-top: 50px;
@@ -92,7 +92,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    min-height: 550px;
   }
 }
 
@@ -102,7 +102,7 @@ a.social:hover {
   display: flex;
   object-fit: cover;
   justify-content: center;
-  border: 2px solid white;
+
   align-items: center;
   box-shadow: 7px 7px solid black;
   transition: transform 0.9s ease;
