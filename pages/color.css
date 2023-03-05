@@ -3,3 +3,19 @@
   padding: 1rm;
   border-radius: 10px;
 }
+
+.img-fluid {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  border: 2px solid white;
+  align-items: center;
+  box-shadow: 7px 7px solid black;
+  transition: transform 0.9s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.14);
+}
