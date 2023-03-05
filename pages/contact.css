@@ -1,57 +1,86 @@
+.img-fluid {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+
+  align-items: center;
+  box-shadow: 7px 7px solid black;
+  transition: transform 0.9s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.14);
+}
+
+/* New css for test*/
+
+/* Section Styles */
+
 .main-nav {
   width: 100%;
-  background: #00000084;
+  background: #fefdfd;
   min-height: 30px;
-  padding: 0;
+  padding: 10px;
   position: fixed;
   text-align: center;
 }
-
 .nav {
+  display: flex;
+  justify-content: space-around;
   font-weight: 700;
-  list-style: none;
+  list-style-type: none;
   margin: 0 auto;
-  padding: 10px;
-  align-items: center;
-  width: 100%;
+  padding: 0;
 }
 
 .nav .name {
   display: block;
   margin-right: auto;
-  color: #007bff;
+  color: rgba(140, 140, 140, 0);
 }
 .nav li {
-  padding: 5px;
+  padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all 0.1s;
 }
 .nav a:hover {
-  color: white;
+  color: rgba(116, 116, 116, 0.257);
 }
 
 header {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
   background-color: #007bff;
-  background-size: cover;
   overflow: hidden;
-  padding-top: 50px;
-  line-height: 1.1;
+  padding-top: 2.7rem;
+}
+header {
+  line-height: 1.9;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-  display: flex;
-  align-items: center;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: 0.75em;
 }
 
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
+}
+
+footer ul li {
+  display: inline-block;
 }
 
 a.social {
@@ -63,15 +92,16 @@ a.social {
   background-size: 30px 30px;
   opacity: 0.4;
   transition: all 0.5s;
+  object-fit: cover;
 }
 a.twitter {
-  background-image: url(img/twitter.svg);
+  background-image: url(images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(img/linkedin.svg);
+  background-image: url(images/linkedin.svg);
 }
 a.github {
-  background-image: url(img/github.svg);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -92,22 +122,25 @@ a.social:hover {
   }
 
   header {
-    min-height: 550px;
+    min-height: 470px;
   }
-}
 
-.img-fluid {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  object-fit: cover;
-  justify-content: center;
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
 
-  align-items: center;
-  box-shadow: 7px 7px solid black;
-  transition: transform 0.9s ease;
-}
+  main {
+    padding-top: 20px;
+  }
 
-.img-fluid:hover {
-  transform: scale(1.14);
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
 }
