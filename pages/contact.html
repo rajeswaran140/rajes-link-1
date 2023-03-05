@@ -24,7 +24,6 @@
         emailjs.init("PBh_ZGbjv6iJjqGDw");
       })();
     </script>
-
     <script src="index.js"></script>
   </head>
   <body>
@@ -36,55 +35,51 @@
         <li><a href="../pages/pathway.html">Pathway</a></li>
       </ul>
     </div>
-
     <header>
-      <img src="img/coder22.png" alt="Learn to code." class="profile-image" />
-      <h1 class="tag name">
-        My passion for learning coding drives me to learn more about it.
-      </h1>
-      <p class="tag location">
-        <strong>Below you will find some interesting information.</strong>
-      </p>
-    </header>
-    <div class="container border mt-3 bg-light">
-      <div class="row">
-        <div class="col-md-6 p-5 bg-primary text-white">
-          <img class="img-fluid" src="/images/profile.jpg" alt="corder image" />
-        </div>
-        <div class="col-md-6 py-3">
-          <h1>Send a message</h1>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter Your Name"
+      <div class="container border mt-3 bg-light">
+        <div class="row">
+          <div class="col-md-6 p-5 bg-primary text-white">
+            <img
+              class="img-fluid"
+              src="/images/profile.jpg"
+              alt="corder image"
             />
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter Your Email"
-            />
+          <div class="col-md-6 py-3">
+            <h1>Send a message</h1>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="3" class="form-control"></textarea>
+            </div>
+            <button
+              class="btn btn-outline-primary"
+              type="button"
+              onclick="sendMail()"
+            >
+              <b>Submit</b>
+            </button>
           </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" rows="3" class="form-control"></textarea>
-          </div>
-          <button
-            class="btn btn-outline-primary"
-            type="button"
-            onclick="sendMail()"
-          >
-            <b>Submit</b>
-          </button>
         </div>
       </div>
-    </div>
+    </header>
     <footer>
       <ul>
         <li>
