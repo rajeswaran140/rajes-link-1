@@ -20,6 +20,7 @@
   width: 400px;
   padding: 25px 35px;
   text-align: center;
+  border-radius: 10px;
 }
 
 nav {
@@ -42,8 +43,8 @@ nav .circle {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid rgb(63, 92, 171);
-  box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+  border: 7px solid rgba(63, 92, 171, 0.261);
+  box-shadow: 0 10px 60px rgba(50, 50, 50, 0.22);
   object-fit: cover;
   display: block;
   justify-content: center;
